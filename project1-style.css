@@ -1,0 +1,225 @@
+nav {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #181818;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    padding-left: 10px;
+}
+
+.home {
+    color: white;
+    font-size: 3em;
+    font-family: "Nanum Myeongjo";
+    font-style: normal;
+}
+
+.home :hover {
+    color: #BC4A3C;
+    transition: all 2s ease;
+}
+
+#navBarLinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    background-color: #181818;
+}
+
+#navRight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    background-color: #181818;
+    padding-right: 20px;
+    font-family: "Inter";
+    font-weight: bold;
+}
+
+#navRightLinks {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-right: 20px;
+    background-color: #181818;
+}
+
+#leftLanding {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 43vw;
+}
+
+main :hover {
+    background-color: white;
+    border-radius: 15px;
+    color: #1F475D;
+    transition: all 1s ease;
+    box-shadow: 0 30px 30px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+main .inside:hover {
+    box-shadow: none;
+}
+
+.navNormal {
+    color: white;
+}
+
+.navAccount {
+    color: white;
+    text-decoration: none;
+    border-radius: 100%;
+    background-color: whitesmoke;
+}
+
+#imnew {
+    display: inline-flex;
+    color: white;
+    align-items: center;
+    flex-direction: row;
+    background-color: #BC4A3C;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+
+.svgs {
+    height: 20px;
+}
+
+
+#rightLanding {
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 43vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rightLanding img {
+    height: 43vh;
+    width: 43vh;
+    overflow: hidden;
+}
+  
+#navBarLinks a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+#navRightLinks :hover {
+    background-color: white;
+    border-radius: 15px;
+    color: #BC4A3C;
+    transition: all 0.5s ease;
+    box-shadow: 1px 1px 1px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(255, 255, 255);
+}
+
+#account {
+    background-color: #181818;
+}
+
+#account :hover {
+    border-radius: 100%;
+    color: #BC4A3C;
+    background: white;
+    transition: all 1s ease;
+    box-shadow: 1px 1px 1px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(255, 255, 255);
+
+}
+
+#heading {
+    font-family: 'Nanum Myeongjo';
+    font-size: 22px;
+    color: #3a3a3a;
+    display: flex;
+    justify-content: flex-start;
+}
+
+h1 {
+    color: black;
+    font-size: 50px;
+    font-family: "Nanum Myeongjo";
+    font-style: normal; 
+}
+
+body {
+    background-color: #F3F3F3;
+    height: 150vh;
+    position: relative;
+}
+
+main {
+    font-family: 'Inter';
+    font-size: 1rem;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slide-text {
+    position: absolute;
+    top: 50%;
+    left: -100%; 
+    white-space: nowrap;
+    animation: slideText 5s linear infinite;
+}
+
+form {
+    background-color: #cdcdcd;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+@keyframes slideText {
+    0% { left: -100%; }
+    100% { left: 100%; }
+}
+
+#brick {
+    max-width:80%;
+    height: auto;
+}
+
+#figure {
+    color: red;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+}
+
+#details {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+footer {
+    display: flex;
+    color: black;
+    align-content: flex-end;
+    padding-left: 30px;
+}
